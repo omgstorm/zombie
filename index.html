@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bomer bimpson</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="game-container"></div>
+    <div id="ui">
+        <div id="health">Health: 100</div>
+        <div id="Money">Money: 0</div>
+        <div id="timer">Timer: 0s</div>
+    </div>
+    <div id="hotbar">
+        <div id="black-hole-icon" class="ability-icon">🕳️</div>
+        <div id="black-hole-cooldown" class="cooldown-timer"></div>
+        <div id="hotbar">
+            <div id="turret-icon" class="ability-icon">🍄</div>
+            <div id="turret-cooldown" class="cooldown-timer"></div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.152.2/build/three.min.js"></script>
+    <script src="game.js"></script>
+</body>
+</html>
+<style>
+    body {
+        background-color: #bfd1e5;
+        color: #61443e;
+    }
+    a {
+        color: #a06851;
+    }
+    
+</style>
